@@ -3,7 +3,7 @@
 <head>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
+<link rel="stylesheet" type="text/css" href="styles.css">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
     <title>Czytaj książki Online</title>
@@ -49,30 +49,30 @@
        
     </section>
     <section id="stats">
-        <div>
+        <div class="container text-center">
             <h1>Statystyki</h1>
-            <div>
-                <div>
-                    <div>
-                        <i></i>
+            <div class="row badges-container">
+                <div class="col-lg-3 col-md-3 col-xs-6">
+                    <div class="stat-badge red center-block">
+                        <i class="glyphicon glyphicon-user"></i>
                         <small>16k użytkowników dziennie</small>
                     </div>
                 </div>
-                <div>
-                   <div>
-                        <i></i>
+                <div class="col-lg-3 col-md-3 col-xs-6">
+                   <div class="stat-badge green center-block">
+                        <i class="glyphicon glyphicon-signal"></i>
                         <small>320k odsłon</small>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <i></i>
+                <div class="col-lg-3 col-md-3 col-xs-6">
+                    <div class="stat-badge blue center-block">
+                        <i class="glyphicon glyphicon-thumbs-up"></i>
                         <small>100k polubień</small>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <i></i>
+                <div class="col-lg-3 col-md-3 col-xs-6">
+                    <div class="stat-badge yellow center-block">
+                        <i class="glyphicon glyphicon-phone"></i>
                         <small>1M pobrań</small>
                     </div>
                 </div>
@@ -80,9 +80,9 @@
         </div>
     </section>
     <section id="pricing">
-        <div>
+        <div class="container">
         <h1>Ceny</h1>
-        <div>
+        <div class="row">
             <div>
                 <div>
                     <div>
@@ -140,7 +140,7 @@
                                 40zł<span>/miesiąc</span></h1>
                             <small>1 miesiąc za darmo</small>
                         </div>
-                        <table>
+                        <table class="table">
                             <tr>
                                 <td>
                                     5 konto
@@ -185,7 +185,7 @@
                                 100zł<span>/miesiąc</span></h1>
                             <small>1 miesiąc za darmo</small>
                         </div>
-                        <table>
+                        <table class="table">
                             <tr>
                                 <td>
                                     100 konto
@@ -224,7 +224,7 @@
     <section id="recent">
         <h1>Najnowsze pozycje</h1>
         <div>
-            <table>
+            <table class="table">
               <thead>
                 <tr>
                   <th>#</th>
